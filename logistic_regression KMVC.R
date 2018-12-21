@@ -152,7 +152,7 @@ cbind(predDatever, predict(dideverwork, type = "response",
 library(effects)
 plot(allEffects(dideverwork))
 
-#it appears that someone married with a spouse in the home has about an 87% probability of ever working, someone married with their spouse not living in the
+#it appears that someone married with a spouse at home has about an 87% probability of ever working, someone married with their spouse not living in the
 #household has an 86% change of ever working, someone who is widowed has a 77% probability, a divorcee has a 93% probabilty of 
 #ever working, someone who is separated has a 88% probability, someone who has never married has an 82% probability of ever working,
 #someone living with a partner has a 91% probability of ever working and those with unknown marital status have an 81% probability of ever working.
